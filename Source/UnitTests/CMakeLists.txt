@@ -1,5 +1,9 @@
 ADD_EXECUTABLE(UnitTestsRun
-  Main.cpp)
+  Main.cpp
+  Utility/SumExample_test.cpp)
+
+TARGET_LINK_LIBRARIES(UnitTestsRun
+  Utility)
 
 SET_TARGET_PROPERTIES(UnitTestsRun
   PROPERTIES
